@@ -1,29 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    background-color: #fafafa;
-    background-image: url('https://www.transparenttextures.com/patterns/brilliant.png');
+  margin: 0;
+  background-color: #fafafa;
+  background-image: url('https://www.transparenttextures.com/patterns/brilliant.png');
 }
 
 h1 {
-    font-family: 'Old Standard TT', Serif;
-    font-size: 48px;
+  font-family: 'Old Standard TT', Serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Old Standard TT', Serif;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: 'Old Standard TT', Serif;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: 'Old Standard TT', Serif;
+  font-size: 18px;
 }
 
 p {
-    font-family: 'Old Standard TT', Serif;
-    font-size: 18px;
+  font-family: 'Old Standard TT', Serif;
+  font-size: 18px;
 }
 
 // .card {
