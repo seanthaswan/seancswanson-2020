@@ -12,7 +12,7 @@ export class ProjectsComponent implements OnInit {
     new Project(
       'nubis.io',
       '../../../assets/nubis-sm.png',
-      'A minimal Weather Forecast SPA that enables the user to pick a location from a map or input their desired location. Built with Angular.js and designed from scratch.',
+      'A minimal Weather Forecast SPA that enables the user to generate a current and trihoral forecast from selecting point on the map or a specified location. Built with Angular.js and designed from scratch.',
       ['JavaScript', 'Angular.js', 'Leaflet.js', 'HTML', 'LESS', 'CSS Grid'],
       'https://nubis.glitch.me/#/forecast',
       'https://github.com/seanthaswan/Angular-Practice'
@@ -53,7 +53,7 @@ export class ProjectsComponent implements OnInit {
       'Spatium Laboratorium',
       '../../../assets/spatium-sm.png',
       'Experiments in space & time... my interactive laboratory exploring 3D JavaScript and WebGL concepts abstracted by Three.js.',
-      ['JavaScript', 'Three.js', 'animation', 'HTML', 'CSS'],
+      ['JavaScript', 'Three.js', 'Animation', 'HTML', 'CSS'],
       'https://spatium-laboratorium.glitch.me',
       'https://github.com/seanthaswan/spatium-laboratorium'
     ),
