@@ -1,6 +1,15 @@
 footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-top: 1px dotted rgba(0, 0, 0, 0.5);
 }
 
-.copywrite {
+.copywrite,
+.made-with-love {
   font-size: 14px;
+}
+
+.and-angular {
+  font-size: 11px;
 }

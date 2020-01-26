@@ -11,9 +11,9 @@ export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     new Project(
       'nubis.io',
-      '../../../assets/fuji-sm.png',
+      '../../../assets/nubis-sm.png',
       'A minimal Weather Forecast SPA that enables the user to pick a location from a map or input their desired location. Built with Angular.js and designed from scratch.',
-      ['JavaScript', 'Angular.js', 'Leaflet.js', 'HTML', 'CSS', 'CSS Grid'],
+      ['JavaScript', 'Angular.js', 'Leaflet.js', 'HTML', 'LESS', 'CSS Grid'],
       'https://nubis.glitch.me/#/forecast',
       'https://github.com/seanthaswan/Angular-Practice'
     ),

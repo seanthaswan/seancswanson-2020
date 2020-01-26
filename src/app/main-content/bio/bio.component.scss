@@ -3,6 +3,8 @@
   background-color: var(--secondary-background-color);
   padding: 5px 10px;
   border-radius: 2px;
+  border: 3px double rgba(0, 0, 0, 0.01);
+
   .bio-background {
     position: absolute;
     right: 0;

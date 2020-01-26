@@ -31,7 +31,7 @@ export class CurriculumVitaeComponent implements OnInit {
       'Apprentice Web Developer',
       "May '18 - Apr. '19",
       'Apprenticeship under a senior web developer. My day-to-day tasks involved typing out and collaborating on dictated code which reinforced the learning of coding best practices and other related programming skills. It has shown to be an amazing opportunity to learn how to work effectively as a remote developer on a team and all that goes into building a project from scratch to production ready apps and experiences.',
-      'As a pair programmer, I was working mostly with front end frameworks and languages but also was involved in some back end programming using. We use many technologies including but not limited to:',
+      'As a pair programmer, I was working mostly with front end frameworks and languages but also was involved in some back end programming. We use many technologies including but not limited to:',
       'We also used various other telecom, version control and project management technologies such as:',
       [
         'JavaScript',

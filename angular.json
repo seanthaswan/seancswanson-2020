@@ -80,8 +80,13 @@
           "options": {
             "browserTarget": "seancswanson2020:build"
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "seancswanson2020"
 }
