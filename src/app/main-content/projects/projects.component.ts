@@ -13,7 +13,7 @@ export class ProjectsComponent implements OnInit {
       'nubis.io',
       '../../../assets/nubis-sm.png',
       'A minimal Weather Forecast SPA that enables the user to generate a current and trihoral forecast from selecting point on the map or a specified location. Built with Angular.js and designed from scratch.',
-      ['JavaScript', 'Angular.js', 'Leaflet.js', 'HTML', 'LESS', 'CSS Grid'],
+      ['JavaScript', 'Angular.js', 'Leaflet.js', 'HTML5', 'LESS', 'CSS Grid'],
       'https://nubis.glitch.me/#/forecast',
       'https://github.com/seanthaswan/Angular-Practice'
     ),
@@ -37,7 +37,7 @@ export class ProjectsComponent implements OnInit {
       'Chairman of the Board',
       '../../../assets/chairman-sm.png',
       "A retro front-end corporate ladder simulator game. I reimagined a game that my father had programmed in basic in the 80's to bring it up to modern specs!",
-      ['JavaScript', 'jQuery', 'HTML', 'CSS'],
+      ['JavaScript', 'jQuery', 'HTML5', 'CSS3'],
       '//seancswanson.com/chairman-of-the-board/',
       'https://github.com/seanthaswan/chairman-of-the-board'
     ),
@@ -45,7 +45,7 @@ export class ProjectsComponent implements OnInit {
       'Mndf.ll',
       '../../../assets/mndfll-sm.png',
       'A full-stack daily journaling & goal tracking app featuring user auth and database utilization.',
-      ['JavaScript', 'Node', 'Express', 'PostgreSQL', 'HTML', 'CSS'],
+      ['JavaScript', 'Node', 'Express', 'PostgreSQL', 'HTML5', 'CSS3'],
       'https://mndfll-js.herokuapp.com/',
       'https://github.com/seanthaswan/mndfll'
     ),
@@ -53,7 +53,7 @@ export class ProjectsComponent implements OnInit {
       'Spatium Laboratorium',
       '../../../assets/spatium-sm.png',
       'Experiments in space & time... my interactive laboratory exploring 3D JavaScript and WebGL concepts abstracted by Three.js.',
-      ['JavaScript', 'Three.js', 'Animation', 'HTML', 'CSS'],
+      ['JavaScript', 'Three.js', 'Animation', 'HTML5', 'CSS3'],
       'https://spatium-laboratorium.glitch.me',
       'https://github.com/seanthaswan/spatium-laboratorium'
     ),
@@ -77,7 +77,7 @@ export class ProjectsComponent implements OnInit {
       'Platformy Onion',
       '../../../assets/platformy-sm.png',
       'Dodge, jump, shoot for the stars as Onion! Be the Onion... Live the Onion! A game built with Phaser 3, a game framework for the web.',
-      ['JavaScript', 'ES6', 'Phaser.js', 'HTML', 'Canvas', 'CSS'],
+      ['JavaScript', 'ES6', 'Phaser.js', 'HTML5', 'Canvas', 'CSS3'],
       'https://platformy-allium.glitch.me/',
       'https://github.com/seanthaswan/platformy-onion'
     ),
@@ -85,7 +85,7 @@ export class ProjectsComponent implements OnInit {
       'Chroma Chameleon',
       '../../../assets/chroma-sm.png',
       'A front-end painting app resembling the nostalgic simplicity of mspaint... soon to add full shape, importing, selection functionalities.',
-      ['JavaScript', 'HTML', 'CSS', 'CSS Grid'],
+      ['JavaScript', 'HTML5', 'CSS3', 'CSS Grid'],
       'https://chroma-chameleon.glitch.me/',
       'https://github.com/seanthaswan/chroma-chameleon'
     ),
@@ -93,7 +93,7 @@ export class ProjectsComponent implements OnInit {
       'Pigmentation Presumption',
       '../../../assets/pig-sm.png',
       'A front-end color guessing game to help sharpen your eye for color! Soon to add hex code challenge for the elites.',
-      ['JavaScript', 'HTML', 'CSS'],
+      ['JavaScript', 'HTML5', 'CSS3'],
       'https://pigmentation-presumption.glitch.me/',
       'https://github.com/seanthaswan/pigmentation-presumption'
     ),
@@ -101,7 +101,7 @@ export class ProjectsComponent implements OnInit {
       'PokéDex',
       '../../../assets/poke-sm.png',
       'A PEN-stack pokèmon encyclopedia as a study of RESTful API architecture and artistic design.',
-      ['JavaScript', 'Node.js', 'Express.js', 'PostgreSQL', 'HTML', 'CSS'],
+      ['JavaScript', 'Node.js', 'Express.js', 'PostgreSQL', 'HTML5', 'CSS3'],
       '',
       'https://github.com/seanthaswan/express-pokedex'
     )
