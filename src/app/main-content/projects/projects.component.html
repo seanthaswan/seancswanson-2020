@@ -1,320 +1,46 @@
 <div class="projects-container">
-    <h2 class="title">Projects</h2>
-    <h4 class="subtitle">For more experiments and one-off explorations, take a look at my GitHub.</h4>
-    <div class="project-items-container">
-        <!-- thirty-six -->
-        <div class="project-item card">
-            <div class="top">
-                <div class="screenshot-container">
-                    <img class="screenshot" src="../../../assets/fuji-sm.png" alt="" />
-                </div>
-                <div class="title-container">
-                    <h3 class="project-title">
-                        The Majesty of the Thirty-Six Views of Mt. Fuji
-                    </h3>
-
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="description">
-                    An interactive gallery of the most iconic collection of Japanese woodblock art by Katsushika Hokusai... in high-resolution!
-                </div>
-                <ul class="tech-list">
-                    <li class="tech-item">JavaScript</li>
-                    <li class="tech-item">ES6</li>
-                    <li class="tech-item">Openseadragon.js</li>
-                    <li class="tech-item">SVG.js</li>
-                    <li class="tech-item">HTML</li>
-                    <li class="tech-item">CSS</li>
-                </ul>
-                <ul class="demo-list">
-                    <a href="http://majesty-of-36-views.glitch.me/" class="demo-item">
-                        <li>Live</li>
-                    </a>
-                    <a href="https://github.com/seanthaswan/osd-woodblocks" class="demo-item">
-                        <li>GitHub</li>
-                    </a>
-                </ul>
-            </div>
+  <h2 class="title">Projects</h2>
+  <h4 class="subtitle">
+    For more experiments and one-off explorations, take a look at my
+    <a href="https://github.com/seanthaswan/">GitHub</a>.
+  </h4>
+  <div class="project-items-container">
+    <div class="project-item elevated" *ngFor="let project of projects">
+      <div class="top">
+        <div class="screenshot-container">
+          <img class="screenshot" src="{{ project.screenshotPath }}" alt="" />
         </div>
-
-        <!-- Chairman -->
-        <div class="project-item card">
-            <div class="top">
-                <div class="screenshot-container">
-                    <img class="screenshot" src="../../../assets/chairman-sm.png" alt="" />
-                </div>
-                <div class="title-container">
-                    <h3 class="project-title">
-                        Chairman of the Board
-                    </h3>
-
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="description">
-                    A retro front-end corporate ladder simulator game. I reimagined a game that my father had programmed in basic in the 80's to bring it up to modern specs!
-                </div>
-                <ul class="tech-list">
-                    <li class="tech-item">Game</li>
-                    <li class="tech-item">JavaScript</li>
-                    <li class="tech-item">jQuery</li>
-                    <li class="tech-item">HTML</li>
-                    <li class="tech-item">CSS</li>
-                </ul>
-                <ul class="demo-list">
-                    <a href="//seancswanson.com/chairman-of-the-board" class="demo-item">
-                        <li>Live</li>
-                    </a>
-                    <a href="https://github.com/seanthaswan/chairman-of-the-board" class="demo-item">
-                        <li>GitHub</li>
-                    </a>
-                </ul>
-            </div>
+        <div class="title-container">
+          <h3 class="project-title">
+            {{ project.title }}
+          </h3>
         </div>
-
-        <!-- mndfll -->
-        <div class="project-item card">
-            <div class="top">
-                <div class="screenshot-container">
-                    <img class="screenshot" src="../../../assets/mndfll-sm.png" alt="" />
-                </div>
-                <div class="title-container">
-                    <h3 class="project-title">
-                        Mndf.ll
-                    </h3>
-
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="description">
-                    A full-stack daily journaling & goal tracking app featuring user auth and database utilization.
-                </div>
-                <ul class="tech-list">
-                    <li class="tech-item">JavaScript</li>
-                    <li class="tech-item">Node.js</li>
-                    <li class="tech-item">Express.js</li>
-                    <li class="tech-item">HTML</li>
-                    <li class="tech-item">CSS</li>
-                </ul>
-                <ul class="demo-list">
-                    <a href="https://mndfll-js.herokuapp.com/" class="demo-item">
-                        <li>Live</li>
-                    </a>
-                    <a href="https://github.com/seanthaswan/mndfll" class="demo-item">
-                        <li>GitHub</li>
-                    </a>
-                </ul>
-            </div>
+      </div>
+      <div class="bottom">
+        <div class="description">
+          <p>{{ project.description }}</p>
         </div>
-
-        <!-- hue -->
-        <div class="project-item card">
-            <div class="top">
-                <div class="screenshot-container">
-                    <img class="screenshot" src="../../../assets/spatium-sm.png" alt="" />
-                </div>
-                <div class="title-container">
-                    <h3 class="project-title">
-                        Spatium Laboratorium
-                    </h3>
-
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="description">
-                    Experiments in space & time... my interactive laboratory exploring 3D JavaScript and WebGL concepts abstracted by Three.js.
-                </div>
-                <ul class="tech-list">
-                    <li class="tech-item">JavaScript</li>
-                    <li class="tech-item">Three.js</li>
-                    <li class="tech-item">animation</li>
-                    <li class="tech-item">HTML</li>
-                    <li class="tech-item">CSS</li>
-                </ul>
-                <ul class="demo-list">
-                    <a href="https://spatium-laboratorium.glitch.me" class="demo-item">
-                        <li>Live</li>
-                    </a>
-                    <a href="https://github.com/seanthaswan/spatium-laboratorium" class="demo-item">
-                        <li>GitHub</li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-
-        <!-- hue -->
-        <div class="project-item card">
-            <div class="top">
-                <div class="screenshot-container">
-                    <img class="screenshot" src="../../../assets/hue-sm.png" alt="" />
-                </div>
-                <div class="title-container">
-                    <h3 class="project-title">
-                        Hue
-                    </h3>
-
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="description">
-                    Built by two others and myself in a week-long sprint during my bootcamp: A MERN-stack color detection utility for designers featuring cloud uploading & asynchronous operations.
-                </div>
-                <ul class="tech-list">
-                    <li class="tech-item">JavaScript</li>
-                    <li class="tech-item">React.js</li>
-                    <li class="tech-item">Node.js</li>
-                    <li class="tech-item">Express.js</li>
-                    <li class="tech-item">MongoDB</li>
-                    <li class="tech-item">HTML</li>
-                    <li class="tech-item">CSS</li>
-                </ul>
-                <ul class="demo-list">
-                    <a href="https://use-hue.herokuapp.com" class="demo-item">
-                        <li>Live</li>
-                    </a>
-                    <a href="https://github.com/seanthaswan/hue-project3" class="demo-item">
-                        <li>GitHub</li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-
-        <!-- platformy -->
-        <div class="project-item card">
-            <div class="top">
-                <div class="screenshot-container">
-                    <img class="screenshot" src="../../../assets/platformy-sm.png" alt="" />
-                </div>
-                <div class="title-container">
-                    <h3 class="project-title">
-                        Platformy Onion
-                    </h3>
-
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="description">
-                    Dodge, jump, shoot for the stars as Onion! Be the Onion... Live the Onion! A game built with Phaser 3, a game framework for the web.
-                </div>
-                <ul class="tech-list">
-                    <li class="tech-item">JavaScript</li>
-                    <li class="tech-item">ES6</li>
-                    <li class="tech-item">Phaser.js</li>
-                    <li class="tech-item">HTML</li>
-                    <li class="tech-item">Canvas</li>
-                    <li class="tech-item">CSS</li>
-                </ul>
-                <ul class="demo-list">
-                    <a href="https://platformy-allium.glitch.me/" class="demo-item">
-                        <li>Live</li>
-                    </a>
-                    <a href="https://github.com/seanthaswan/platformy-onion" class="demo-item">
-                        <li>GitHub</li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-
-        <!-- chroma -->
-        <div class="project-item card">
-            <div class="top">
-                <div class="screenshot-container">
-                    <img class="screenshot" src="../../../assets/chroma-sm.png" alt="" />
-                </div>
-                <div class="title-container">
-                    <h3 class="project-title">
-                        Chroma Chameleon
-                    </h3>
-
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="description">
-                    A front-end painting app resembling the nostalgic simplicity of mspaint... soon to add full shape, importing, selection functionalities.
-                </div>
-                <ul class="tech-list">
-                    <li class="tech-item">JavaScript</li>
-                    <li class="tech-item">HTML</li>
-                    <li class="tech-item">Canvas</li>
-                    <li class="tech-item">CSS</li>
-                </ul>
-                <ul class="demo-list">
-                    <a href="https://chroma-chameleon.glitch.me/" class="demo-item">
-                        <li>Live</li>
-                    </a>
-                    <a href="https://github.com/seanthaswan/chroma-chameleon" class="demo-item">
-                        <li>GitHub</li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-
-        <!-- pigment -->
-        <div class="project-item card">
-            <div class="top">
-                <div class="screenshot-container">
-                    <img class="screenshot" src="../../../assets/pig-sm.png" alt="" />
-                </div>
-                <div class="title-container">
-                    <h3 class="project-title">
-                        Pigmentation Presumption
-                    </h3>
-
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="description">
-                    A front-end color guessing game to help sharpen your eye for color! Soon to add hex code challenge for the elites.
-                </div>
-                <ul class="tech-list">
-                    <li class="tech-item">Game</li>
-                    <li class="tech-item">JavaScript</li>
-                    <li class="tech-item">HTML</li>
-                    <li class="tech-item">CSS</li>
-                </ul>
-                <ul class="demo-list">
-                    <a href="https://pigmentation-presumption.glitch.me/" class="demo-item">
-                        <li>Live</li>
-                    </a>
-                    <a href="https://github.com/seanthaswan/pigmentation-presumption" class="demo-item">
-                        <li>GitHub</li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-
-        <!-- poke -->
-        <div class="project-item card">
-            <div class="top">
-                <div class="screenshot-container">
-                    <img class="screenshot" src="../../../assets/poke-sm.png" alt="" />
-                </div>
-                <div class="title-container">
-                    <h3 class="project-title">
-                        PokéDex
-                    </h3>
-
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="description">
-                    A PEN-stack pokèmon encyclopedia as a study of restful api architecture and artistic design.
-                </div>
-                <ul class="tech-list">
-                    <li class="tech-item">JavaScript</li>
-                    <li class="tech-item">Node.js</li>
-                    <li class="tech-item">Express.js</li>
-                    <li class="tech-item">PostgreSQL</li>
-                    <li class="tech-item">HTML</li>
-                    <li class="tech-item">CSS</li>
-                </ul>
-                <ul class="demo-list">
-                    <a href="https://github.com/seanthaswan/express-pokedex" class="demo-item">
-                        <li>GitHub</li>
-                    </a>
-                </ul>
-            </div>
-        </div>
+        <ul class="tech-list">
+          <li class="tech-item" *ngFor="let tech of project.tech">
+            {{ tech }}
+          </li>
+        </ul>
+        <ul class="demo-list">
+          <a
+            href="{{ project.liveUrl }}"
+            *ngIf="project.liveUrl !== ''"
+            class="demo-item elevated"
+          >
+            <li>Live</li>
+          </a>
+          <a href="project.githubUrl" class="demo-item elevated">
+            <li>GitHub</li>
+          </a>
+        </ul>
+      </div>
     </div>
+    <div class="project-item card empty">
+      <p>✨ ...and much more in the works. ✨</p>
+    </div>
+  </div>
 </div>
