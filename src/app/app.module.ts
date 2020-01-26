@@ -9,6 +9,8 @@ import { BioComponent } from './main-content/bio/bio.component';
 import { ProjectsComponent } from './main-content/projects/projects.component';
 import { CurriculumVitaeComponent } from './main-content/curriculum-vitae/curriculum-vitae.component';
 
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,7 @@ import { CurriculumVitaeComponent } from './main-content/curriculum-vitae/curric
     ProjectsComponent,
     CurriculumVitaeComponent
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, ScrollToModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent]
 })

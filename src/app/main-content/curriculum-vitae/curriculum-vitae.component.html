@@ -13,14 +13,14 @@
     </div>
     <div class="bottom">
       <p>{{ item.description }}</p>
-      <p class="tech-description" *ngIf="techDescription !== ''">
+      <p class="tech-description" *ngIf="item.techDescription !== ''">
         {{ item.techDescription }}
       </p>
       <ul class="tech-list">
         <li class="tech-item" *ngFor="let tech of item.tech">{{ tech }}</li>
       </ul>
 
-      <p class="tech-description" *ngIf="toolsDescription !== ''">
+      <p class="tech-description" *ngIf="item.toolsDescription !== ''">
         {{ item.toolsDescription }}
       </p>
       <ul class="tech-list" *ngIf="item.tools !== []">
