@@ -8,22 +8,25 @@
   }
 }
 
+.top-title-container {
+  display: flex;
+}
+
 .title {
-  margin-bottom: 0;
   border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
-  max-width: 129px;
+  margin-bottom: 0;
 }
 
 .project-item {
   display: grid;
   grid-template-rows: 260px 1fr;
-  width: 48%;
+  width: 49%;
   padding: 5px 10px;
   margin-bottom: 20px;
   align-items: center;
   border-radius: 2px;
   background: var(--secondary-background-color);
-  border: 3px double rgba(0, 0, 0, 0.01);
+  border: 1px dotted rgba(0, 0, 0, 0.3);
   @media (max-width: 800px) {
     width: 100%;
   }
